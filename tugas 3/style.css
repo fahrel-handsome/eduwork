@@ -1,0 +1,21 @@
+/* Font global */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Hero title */
+.hero h1 {
+  font-size: 2rem;
+}
+
+/* Card portfolio image */
+.card img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Section spacing (biar rapi di luar Bootstrap default) */
+section {
+  scroll-margin-top: 80px; /* biar smooth pas klik navbar */
+}
